@@ -1,0 +1,14 @@
+jpa:
+  default:
+    reactive: true
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: create-drop
+        show_sql: true
+        db-type: mysql
+test-resources:
+  containers:
+    mysql:
+      image-name: mysql
+      accept-license: true

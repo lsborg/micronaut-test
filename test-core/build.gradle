@@ -9,6 +9,7 @@ dependencies {
     compileOnly(mnData.micronaut.data.connection.jdbc)
     compileOnly(mnR2dbc.r2dbc.spi)
     compileOnly(mn.reactor)
+    compileOnly(mnData.micronaut.data.hibernate.reactive)
 
     api(mn.micronaut.inject)
 
